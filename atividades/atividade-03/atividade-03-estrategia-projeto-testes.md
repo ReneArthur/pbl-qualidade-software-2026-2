@@ -4,18 +4,18 @@
 
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** Qualidade Software Noite.
+
+**Equipe:** Rene e Felipe 
+
+**Data:** 22/09/2026
 
 ### Integrantes
 
 | Nome | Usuário no GitHub |
 |---|---|
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
+| Rene | [Rene](https://github.com/ReneArthur) |
+| Felipe | [Felipe Tatsuya Aso](https://github.com/asottsuy) |
 
 **Elemento de Competência:** Planejar e projetar testes selecionando técnicas adequadas.
 
