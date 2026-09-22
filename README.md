@@ -6,11 +6,14 @@ Repositório da equipe para as atividades da Unidade Curricular Qualidade de Sof
 
 | Nome | Turma | Usuário no GitHub |
 |---|---|---|
-| Preencher | Preencher | @usuario |
+| Rene | Qualidade Software noite | ReneArthur |
+| Felipe | Qualidade Software noite | asottsuy |
 
 ## Atividades
 
 - atividades/atividade-01/
+- atividades/atividade-02/
+- atividades/atividade-03/
 
 ## Aplicação analisada
 

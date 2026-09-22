@@ -4,15 +4,18 @@
 
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** Qualidade Software Noite.
+
+**Equipe:** Rene e Felipe 
+
+**Data:** 22/09/2026
 
 ### Integrantes
 
 | Nome | Usuário no GitHub |
 |---|---|
-| [nome] | [@usuario] |
+| Rene | [Rene](https://github.com/ReneArthur) |
+| Felipe | [Felipe Tatsuya Aso](https://github.com/asottsuy) |
 
 **Elemento de Competência:** Compreender os fundamentos de qualidade de software e sua aplicação no desenvolvimento de sistemas.
 
@@ -26,16 +29,19 @@
 
 | Tipo | Necessidade | Interessado | Consequência se não for atendida |
 |---|---|---|---|
-| Explícita | [preencher] | [preencher] | [preencher] |
-| Explícita | [preencher] | [preencher] | [preencher] |
-| Implícita | [preencher] | [preencher] | [preencher] |
-| Implícita | [preencher] | [preencher] | [preencher] |
+| Explícita | Pesquisar por restaurante próximos | Cliente | Cliente terá muita dificuldade de escolher onde comer
+| Explícita | Filtrar por nacionalidade de comidas | Cliente | Dificuldade em achar restaurantes que o cliente que comer no momento
+| Implícita | Responsividade | Cliente | Seria muito difícil de usar o app no computador ou celular (telas diferentes)
+| Implícita | Bom SEO | Restaurantes | A falta de um bom SEO num website pode dificultar a busca do site nos navegadores
+
 
 ### 2.2 Questão sobre os fundamentos da qualidade
 
 **Um sistema que implementa todas as funcionalidades explicitamente solicitadas pode, ainda assim, apresentar baixa qualidade? Justifiquem utilizando pelo menos uma necessidade implícita identificada pela equipe.**
 
-[Resposta da equipe em até cinco linhas.]
+```
+Resposta: Sim, se ele não for responsivo por exemplo, pode ser muito difícil ou até impossível usar o app para computador ou celular, ou monitores com uma resolução mais baixa, se isso acontecer as funcionalidades explícitas perdem o peso completamente por simplesmente serem inacessíveis para o cliente.
+```
 
 ---
 
@@ -45,10 +51,9 @@
 
 | Integrante | Funcionalidade | O que foi realizado | O que foi observado | Evidência |
 |---|---|---|---|---|
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
+| Rene | Favoritar um restaurante e ver na aba de “Meus favoritos” | Clicado em um restaurante, depois clicado no botão de “favoritar” depois navegado para a área de favoritos | O restaurante foi favoritado corretamente, e ele apareceu na listagem instantaneamente. | [ver evidência](evidencias/favoritar-restaurante-lista.mkv)
+| Felipe | Filtro por palavra chave não funciona | Pesquisei o nome do ‘mexicana’ no filtro | Ao pesquisar por culinárias que estão no site, o filtro não retorna nenhum card | [ver evidência](evidencias/pesquisa-mexicana-vazio.png)
+
 
 ---
 
@@ -58,20 +63,13 @@
 
 | Integrante | Requisito de Qualidade | Característica ou subcaracterística | Justificativa | Como avaliar |
 |---|---|---|---|---|
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
+| Rene | Favoritar restaurante | Lista de restaurantes favoritados | É necessário ter uma listagem para poder ver os restaurantes favoritados. |  teste manual, favoritar um restaurante e navegar até a lista.
+| Felipe | Filtrar restaurante | Listagem de restaurantes | Deve aparecer os restaurantes filtrados pela palavra chave | teste manual, digitar a palavra e clicar em buscar no filtro
 
 ---
+
 
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
-
-**Como foi utilizada:**  
-[Descrever brevemente.]
-
-**Como as respostas foram verificadas:**  
-[Descrever brevemente.]
+não utilizada

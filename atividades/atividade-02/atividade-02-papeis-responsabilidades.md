@@ -4,18 +4,18 @@
 
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** Qualidade Software Noite.
+
+**Equipe:** Rene e Felipe 
+
+**Data:** 22/09/2026
 
 ### Integrantes
 
 | Nome | Usuário no GitHub |
 |---|---|
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
+| Rene | [Rene](https://github.com/ReneArthur) |
+| Felipe | [Felipe Tatsuya Aso](https://github.com/asottsuy) |
 
 **Elemento de Competência:** Identificar papéis, responsabilidades e competências relacionadas às atividades de qualidade e testes.
 
@@ -27,15 +27,19 @@
 
 | Problema identificado | Possível consequência para o produto ou para a equipe |
 |---|---|
-| [preencher] | [preencher] |
-| [preencher] | [preencher] |
-| [preencher] | [preencher] |
+| Funcionalidades chegam aos usuários com defeitos; | Produto sem conformidade, logo, insatisfação dos clientes 
+| Os critérios para considerar uma funcionalidade pronta não estão claros; | Má organização do time, acúmulo de bugs, processos lentos.
+| Algumas atividades são realizadas por mais de uma pessoa, enquanto outras não possuem responsável definido. |  Tempo e esforço perdido
+
+
 
 ### 2.2 Responsabilidade pela qualidade
 
 **A qualidade do LocalEats deve ser responsabilidade exclusiva do profissional de QA? Justifiquem.**
 
-[Resposta da equipe em até cinco linhas.]
+```
+resposta: Não, pois os programadores e implementadores também devem trabalhar juntos para montar pipelines efetivas, e também testes automatizados, para assegurar que nenhuma falha passe. A pipeline de desenvolvimento e integração deve funcionar bem com os testes e o QA para permitir isso.
+```
 
 ---
 
@@ -45,10 +49,8 @@
 
 | Integrante | Papel analisado | Responsabilidades relacionadas à qualidade | Competências técnicas | Competências comportamentais |
 |---|---|---|---|---|
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
+| Rene | DevOps | Automatizar a integração e implementação de código, com testes automatizados, logs de auditoria, políticas de implementação, e plano automático para reverter a implementação caso necessário. | Trabalhar bem com git, docker, algum tipo de criador de pipeline (tipo github actions), entender sobre nuvem, testes automatizados. | Conversar bem com pessoas de diferentes áreas (programadores, técnicos de nuvem e stakeholders). Ensinar sobre pipeline.
+| Felipe | Liderança Técnica | Delegar tarefas, fazer o code review, tomar decisões finais, aprimorar o fluxo/processo e gerir o grupo de forma estratégica extraindo o maximo de cada um. |  Entender todos os processos e regras de negócio, ter amplo conhecimento das stacks do projeto. | Saber gerir grupo, otima comunicação com suporte/implantação/devs.
 
 ---
 
@@ -65,40 +67,49 @@ Utilizem:
 
 | Atividade de qualidade | Papel 1 | Papel 2 | Papel 3 | Papel 4 |
 |---|:---:|:---:|:---:|:---:|
-| Definir critérios de aceitação |  |  |  |  |
-| Revisar requisitos |  |  |  |  |
-| Implementar a funcionalidade |  |  |  |  |
-| Revisar o código |  |  |  |  |
-| Criar testes unitários |  |  |  |  |
-| Planejar e executar testes do sistema |  |  |  |  |
-| Registrar e acompanhar defeitos |  |  |  |  |
-| Priorizar a correção dos defeitos |  |  |  |  |
-| Aprovar a disponibilização da versão |  |  |  |  |
+| Definir critérios de aceitação | - | R | - | C, A 
+| Revisar requisitos | - | R | - | A 
+| Implementar a funcionalidade | - | - | R | A
+| Revisar o código | A | - | R | - 
+| Criar testes unitários | A | - | R | -
+| Planejar e executar testes do sistema | R | R | - | -
+| Registrar e acompanhar defeitos | - | R | - | I
+| Priorizar a correção dos defeitos | - | R | I | C
+| Aprovar a disponibilização da versão | R | - | - | I
+
+
 
 ### 4.1 Lacuna ou conflito encontrado
 
 **Lacuna ou conflito:**  
-[Indiquem uma atividade sem responsabilidade clara, excessivamente concentrada ou com responsabilidades conflitantes.]
+```
+resposta: “Planejar e executar testes do sistema”, poderia ser algo tanto do QA quanto do DevOps
+```
 
 **Consequência:**  
-[Expliquem o possível impacto para o produto ou para a equipe.]
+```
+resposta: retrabalho desnecessário, falta de organização.
+```
 
 ### 4.2 Práticas de QA recomendadas
 
 | Prática recomendada | Problema que ajuda a resolver | Papéis envolvidos |
 |---|---|---|
-| [preencher] | [preencher] | [preencher] |
-| [preencher] | [preencher] | [preencher] |
+| Abordagem Three Amigos | requisitos incompletos, casos de teste desalinhados com a regra de negócio e cenários de testes criados tardiamente. | QA, Dev e Analista de Negócios. 
+| Shift-Left Testing | Detecção tardia de falhas de arquitetura/integração, acúmulo de testes na fase final da sprint e execuções de testes de sistema com atrasos. | QA, Dev, DevOps
+
+
 
 ---
 
 ## 5. Uso de inteligência artificial
 
-**Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
+**Ferramenta utilizada:**
+gemini
 
-**Como foi utilizada:**  
-[Descrever brevemente.]
+**Como foi utilizada:**
+Usando para entender quais praticas de QA podem ser adotadas
 
-**Como as respostas foram verificadas:**  
-[Descrever brevemente.]
+**Como as respostas foram verificadas:**
+de forma manual, cada resposta da IA foi analisada e ajustada para fazer sentido ao contexo do trabalho.
+
