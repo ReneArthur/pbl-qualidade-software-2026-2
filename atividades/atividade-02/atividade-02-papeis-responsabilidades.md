@@ -65,7 +65,7 @@ Utilizem:
 - **C:** consultado antes da execução ou decisão;
 - **I:** informado sobre o resultado.
 
-| Atividade de qualidade | Papel 1 | Papel 2 | Papel 3 | Papel 4 |
+| Atividade de qualidade | DevOps | QA | Desenvolvedor | Responsável pelo produto |
 |---|:---:|:---:|:---:|:---:|
 | Definir critérios de aceitação | - | R | - | C, A 
 | Revisar requisitos | - | R | - | A 
