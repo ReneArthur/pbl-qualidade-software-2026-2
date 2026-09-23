@@ -216,7 +216,7 @@ Nenhum restaurante deve aparecer, pois não existe restaurante com localidade Ba
 
 ---
 
-### CT02: Pesquisar restaurantes pelo local “Bahia”
+### CT02: Pesquisar restaurantes pelo local “Sul”
 
 **Integrante responsável:** Rene
 **Funcionalidade:** Pesquisa de restaurantes
