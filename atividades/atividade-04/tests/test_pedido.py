@@ -11,4 +11,3 @@ def test_pedido_reconhece_valor_minimo_corretamente():
 def test_pedido_valor_negativo_levanta_excecao():
     with pytest.raises(ValueError):
         pedido_atingiu_valor_minimo(-1)
-
